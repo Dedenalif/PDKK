@@ -17,3 +17,6 @@ Route::get('/', function () {
     return view('layouts.home');
 });
 
+Route::get('about', function () {
+    return view('layouts.about');
+});
