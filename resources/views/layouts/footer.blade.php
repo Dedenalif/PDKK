@@ -1,5 +1,5 @@
    <!--FOOTER TOP SECTION START-->
-   <div class="footer-top">
+   <div class="footer-top" id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
@@ -7,9 +7,6 @@
                         <div class="logo">
                             <img src="img/logo.png" class="w-100 img-fluid" alt="" />
                         </div>
-                        <p>If you are going to use a passage of need to be sure there isn't anything hidden in the
-                            middle text.</p>
-                        <span>If you are going to use a passage of need to be sure there isn't</span>
                         <ul class="social-icon-list">
                             <li>
                                 <a href="#"><i class="icofont-facebook"></i></a>
@@ -75,7 +72,7 @@
                                     <img src="img/line2.png" alt="" />
                                 </div>
                                 <div class="col-4 mt-2">
-                                    <span>8AM - 10PM</span>
+                                    <span>8AM - 5PM</span>
                                 </div>
                                 <div class="col-4 mt-2">
                                     <span>Tuesday</span>
@@ -84,7 +81,7 @@
                                     <img src="img/line2.png" alt="" />
                                 </div>
                                 <div class="col-4 mt-2">
-                                    <span>8AM - 10PM</span>
+                                    <span>8AM - 5PM</span>
                                 </div>
                                 <div class="col-4 mt-2">
                                     <span>Wednesday</span>
@@ -93,16 +90,16 @@
                                     <img src="img/line2.png" alt="" />
                                 </div>
                                 <div class="col-4 mt-2">
-                                    <span>8AM - 10PM</span>
+                                    <span>8AM - 5PM</span>
                                 </div>
                                 <div class="col-4 mt-2">
-                                    <span class="custom-date-span">Thursday</span>
+                                    <span>Thursday</span>
                                 </div>
                                 <div class="col-4 mt-2">
                                     <img src="img/line3.png" alt="" />
                                 </div>
                                 <div class="col-4 mt-2">
-                                    <span class="custom-date-span">8AM - 10PM</span>
+                                    <span>8AM - 5PM</span>
                                 </div>
                                 <div class="col-4 mt-2">
                                     <span>Friday</span>
@@ -111,7 +108,7 @@
                                     <img src="img/line2.png" alt="" />
                                 </div>
                                 <div class="col-4 mt-2">
-                                    <span>8AM - 10PM</span>
+                                    <span>8AM - 5PM</span>
                                 </div>
                                 <div class="col-4 mt-2">
                                     <span>Saturday</span>
@@ -120,7 +117,7 @@
                                     <img src="img/line2.png" alt="" />
                                 </div>
                                 <div class="col-4 mt-2">
-                                    <span>8AM - 10PM</span>
+                                    <span>8AM - 5PM</span>
                                 </div>
                             </div>
                         </div>

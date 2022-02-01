@@ -54,8 +54,8 @@
                         </div>
                     </a>
                     <div class="open-time">
-                        <h6><i class="icofont-clock-time"></i> Open Now</h6>
-                        <span>8AM - 10PM</span>
+                        <h6><i class="icofont-clock-time"></i> Open From</h6>
+                        <span>8AM - 5PM</span>
                     </div>
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -72,7 +72,7 @@
                                 <a class="nav-link" href="{{url('about')}}">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact</a>
+                                <a class="nav-link" href="#contact">Contact</a>
                             </li>
 
                             <li class="nav-item last-menu-bg">
@@ -162,7 +162,7 @@
                                 <img src="{{ asset('hotte/img/honney.png') }}" alt="" />
                             </div>
                             <div class="image-text float-left">
-                                <h2>Choose food</h2>
+                                <h2>Pilih Makanan</h2>
                                 <p>It is a long establed fact will distracted readable looking at layou.</p>
                             </div>
                         </div>
@@ -174,7 +174,7 @@
                                 <img src="{{ asset('hotte/img/macaron.png') }}" alt="" />
                             </div>
                             <div class="image-text float-left">
-                                <h2>place order</h2>
+                                <h2>Memesan</h2>
                                 <p>It is a long establed fact will distracted readable looking at layou.</p>
                             </div>
                         </div>
@@ -186,7 +186,7 @@
                                 <img src="{{ asset('hotte/img/dinner.png') }}" alt="" />
                             </div>
                             <div class="image-text float-left">
-                                <h2>Receive & go</h2>
+                                <h2>Diterima & Menuju Lokasi</h2>
                                 <p>It is a long establed fact will distracted readable looking at layou.</p>
                             </div>
                         </div>

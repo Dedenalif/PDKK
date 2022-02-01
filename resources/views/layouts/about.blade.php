@@ -54,8 +54,8 @@
                         </div>
                     </a>
                     <div class="open-time">
-                        <h6><i class="icofont-clock-time"></i> Open Now</h6>
-                        <span>8AM - 10PM</span>
+                        <h6><i class="icofont-clock-time"></i> Open From</h6>
+                        <span>8AM - 5PM</span>
                     </div>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <i class="icofont-navigation-menu"></i>
@@ -70,7 +70,7 @@
                                 <a class="nav-link" href="about.html">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact</a>
+                                <a class="nav-link" href="#contact">Contact</a>
                             </li>
 
                             <li class="nav-item last-menu-bg">
@@ -115,37 +115,40 @@
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
                     <div class="image-box clearfix border-right-dashed">
                         <div class="box-image float-left">
-                            <img src="{{ asset ('hotte/img/honney.png')}}" alt="" />
+                            <img src="{{asset('hotte/img/phone.png')}}" alt="" />
+                            <!-- <img src="{{asset('img/honney.png')}}" alt="" /> -->
                         </div>
-                        <div class="image-text float-left">
-                            <h2>Choose food</h2>
-                            <p>It is a long establed fact will distracted readable looking at layou.</p>
+                        <div class="image-text float-left contact-information">
+                            <h2>Call Now</h2>
+                            <p><a href="#">00 863 578 774</a></p>
+                            <p><a href="#">88 725 705 344</a></p>
                         </div>
                     </div>
                 </div>
-
 
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
                     <div class="image-box clearfix border-right-dashed">
                         <div class="box-image float-left">
-                            <img src="{{ asset('hotte/img/macaron.png')}}" alt="" />
+                            <img src="{{asset('hotte/img/email.png')}}" alt="" />
+                            <!-- <img src="{{asset('img/macaron.png')}}" alt="" /> -->
                         </div>
-                        <div class="image-text float-left">
-                            <h2>place order</h2>
-                            <p>It is a long establed fact will distracted readable looking at layou.</p>
+                        <div class="image-text float-left contact-information">
+                            <h2>Email us</h2>
+                            <p><a href="#">luqman123@gmail.com</a></p>
+                            <p><a href="#">dedenalif12345@gmail.com</a></p>
                         </div>
                     </div>
                 </div>
 
-
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
                     <div class="image-box clearfix">
                         <div class="box-image float-left">
-                            <img src="{{ asset ('hotte/img/dinner.png')}}" alt="" />
+                            <img src="{{asset('hotte/img/map.png')}}" alt="" />
+                            <!-- <img src="{{asset('img/dinner.png')}}" alt="" /> -->
                         </div>
-                        <div class="image-text float-left">
-                            <h2>Receive & go</h2>
-                            <p>It is a long establed fact will distracted readable looking at layou.</p>
+                        <div class="image-text float-left contact-information">
+                            <h2>Address</h2>
+                            <p><a href="https://goo.gl/maps/C8ZF2nV4u4mtkGtk6">Taman Bunga Sukamukti<br>Desa Sukamukti</a></p>
                         </div>
                     </div>
                 </div>
@@ -219,8 +222,7 @@
             <div class="row">
                 <div class="col-xs-12 col-sm 12 col-md-12 col-lg-12 col-xl-12">
                     <div class="chefs-head text-center">
-                        <h2>Special & Awarded Chefs of <span>Hotte</span></h2>
-                        <p>There are many variations of passages of Lorem Ipsum available but majority have suffered alteration injected humour</p>
+                        <h2>Tim dari <span>Luckroni</span></h2>
                     </div>
                 </div>
             </div>
@@ -230,15 +232,14 @@
                         <div class="chefs-info row">
                             <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
                                 <div class="chefs-img text-center">
-                                    <img src="{{ asset ('hotte/img/chefs1.png')}}" alt="" class="w-100 img-fluid" />
+                                    <img src="{{ asset ('hotte/img/chefs4.png')}}" alt="" class="w-100 img-fluid" />
                                 </div>
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 col-xl-7">
                                 <div class="chefs-info-content">
-                                    <h3><a href="#">Sanlia Weiss</a></h3>
-                                    <h4>Awarded Chef</h4>
-                                    <p>Ferment of libero osit amet conse tetuer adiing elit dictum magna laoreet aliquam leo. Ut tellus dolor dapibus eget cursus eleifend.</p>
-                                    <p>Ferment of libero osit amet conse tetuer adiing elit dictum magna laoreet aliquam leo. Ut tellus dolor dapibus eget cursus eleifend.</p>
+                                    <h3><a href="#">Luqman Muhammad Syahidan</a></h3>
+                                    <h4>Pendiri Luckroni</h4>
+                                    <p>Luqman adalah seorang pendiri dari perusahaan luckroni. Nama Luckroni sendiri terinspirasi dari namanya yang sering dipanggil Luckman</p>
                                 </div>
                                 <ul class="social-icon-list">
                                     <li>
@@ -269,10 +270,9 @@
                             
                             <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 col-xl-7">
                                 <div class="chefs-info-content">
-                                    <h3><a href="#">Maren Britt</a></h3>
-                                    <h4>Awarded Chef</h4>
-                                    <p>Ferment of libero osit amet conse tetuer adiing elit dictum magna laoreet aliquam leo. Ut tellus dolor dapibus eget cursus eleifend.</p>
-                                    <p>Ferment of libero osit amet conse tetuer adiing elit dictum magna laoreet aliquam leo. Ut tellus dolor dapibus eget cursus eleifend.</p>
+                                    <h3><a href="#">Mohammad Reihan Zakya Alawi</a></h3>
+                                    <h4>Sekretaris</h4>
+                                    <p>Biasa dipanggil Reihan dia adalah seorang sekretaris yang ikut membantu mendirikan perusahaan luckroni ini.</p>
                                 </div>
                                 <ul class="social-icon-list">
                                     <li>
@@ -303,10 +303,9 @@
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 col-xl-7">
                                 <div class="chefs-info-content">
-                                    <h3><a href="#">Candis Dode</a></h3>
-                                    <h4>Awarded Chef</h4>
-                                    <p>Ferment of libero osit amet conse tetuer adiing elit dictum magna laoreet aliquam leo. Ut tellus dolor dapibus eget cursus eleifend.</p>
-                                    <p>Ferment of libero osit amet conse tetuer adiing elit dictum magna laoreet aliquam leo. Ut tellus dolor dapibus eget cursus eleifend.</p>
+                                    <h3><a href="#">Deden Muhammad</a></h3>
+                                    <h4>Chef Dunia</h4>
+                                    <p>Deden adalah seorang chef handal yang tinggal di sompok. Dia memenangkan kejuaraan memasak di berbagai penjuru dunia.</p>
                                 </div>
                                 <ul class="social-icon-list">
                                     <li>
@@ -331,15 +330,14 @@
                         <div class="chefs-info row">
                             <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
                                 <div class="chefs-img text-center">
-                                    <img src="{{ asset ('hotte/img/chefs4.png')}}" alt="" class="w-100 img-fluid" />
+                                    <img src="{{ asset ('hotte/img/chefs6.png')}}" alt="" class="w-100 img-fluid" />
                                 </div>
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 col-xl-7">
                                 <div class="chefs-info-content">
-                                    <h3><a href="#">Arvilla Vail</a></h3>
-                                    <h4>Awarded Chef</h4>
-                                    <p>Ferment of libero osit amet conse tetuer adiing elit dictum magna laoreet aliquam leo. Ut tellus dolor dapibus eget cursus eleifend.</p>
-                                    <p>Ferment of libero osit amet conse tetuer adiing elit dictum magna laoreet aliquam leo. Ut tellus dolor dapibus eget cursus eleifend.</p>
+                                    <h3><a href="#">Gagan Nugraha</a></h3>
+                                    <h4>Distributor</h4>
+                                    <p>gagan adalah seorang petinju profesional ternama yang telah pensiun. Dia menjadi distributor luckroni karena gabut</p>
                                 </div>
                                 <ul class="social-icon-list">
                                     <li>
@@ -360,68 +358,10 @@
                     </div>
                 </div>
 
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-                    <div class="chefs">
-                        <div class="chefs-info row">
-                            <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
-                                <div class="chefs-img text-center">
-                                    <img src="{{ asset ('hotte/img/chefs5.png')}}" alt="" class="w-100 img-fluid" />
-                                </div>
-                            </div>
-                            <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 col-xl-7">
-                                <div class="chefs-info-content">
-                                    <h3><a href="#">Nilda Merrill</a></h3>
-                                    <h4>Awarded Chef</h4>
-                                    <p>Ferment of libero osit amet conse tetuer adiing elit dictum magna laoreet aliquam leo. Ut tellus dolor dapibus eget cursus eleifend.</p>
-                                    <p>Ferment of libero osit amet conse tetuer adiing elit dictum magna laoreet aliquam leo. Ut tellus dolor dapibus eget cursus eleifend.</p>
-                                </div>
-                                <ul class="social-icon-list">
-                                    <li>
-                                        <a href="#"><i class="icofont-facebook"></i></a>
-                                    </li>
-                                    <li class="custom-icon-pinterest">
-                                        <a href="#"><i class="icofont-pinterest"></i></a>
-                                    </li>
-                                    <li class="custom-icon-dribbble">
-                                        <a href="#"><i class="icofont-dribbble"></i></a>
-                                    </li>
-                                    <li class="custom-icon-twitter">
-                                        <a href="#"><i class="icofont-twitter"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
     <!-- CHEFS SECTION END -->
-
-    <!-- TESTY FOOD SECTION START -->
-    <div class="testy-section">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-6 col-lg-6">
-                    <div class="testy-content">
-                        <h3>We make testy <span>food everyday</span></h3>
-                        <p>If you are going to use aa passage of you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6 text-center">
-                    <div class="video-content">
-                        <div class="video">
-                            <a href="https://youtu.be/V6Vd1E9OL-U" class="venobox" data-autoplay="true" data-vbtype="video">
-                                <i class="icofont-ui-play"></i>
-                            </a>
-                        </div>
-                        <span>20 Minutes Intro</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- TESTY FOOD SECTION END -->
 
    @include('layouts.footer')
 
