@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to Hotte</title>
+    <title>Welcome to Luckroni</title>
     <!-- Favicon -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
@@ -50,12 +50,13 @@
                 <nav class="navbar navbar-expand-lg navbar-light px-0 py-0">
                     <a class="navbar-brand" href="index.html">
                         <div class="logo">
-                            <img src="{{ asset('hotte/img/luckroni/macaroni (4).png') }}" class="w-100 img-fluid" alt="" />
+                            <img src="{{ asset('hotte/img/luckroni/macaroni (4).png') }}" class="w-100 img-fluid"
+                                alt="" />
                         </div>
                     </a>
                     <div class="open-time">
-                        <h6><i class="icofont-clock-time"></i> Open From</h6>
-                        <span>8AM - 5PM</span>
+                        <h6><i class="icofont-clock-time"></i> Buka dari</h6>
+                        <span>08:00 - 17:00</span>
                     </div>
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -69,7 +70,7 @@
                                 <a class="nav-link" href="index.html">Home </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="{{url('about')}}">About</a>
+                                <a class="nav-link" href="{{ url('about') }}">About</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#contact">Contact</a>
@@ -98,13 +99,13 @@
                     <div class="home-hero-content">
                         <h1>LUCK<strong>RONI</strong></h1>
                         <p>Nyodok Bumbuna<span> <a href="contact.html">Enakeun Rasana</a></span></p>
-                        <a class="btn menu-btn" href="#food-menu">Menu <i
-                                class="icofont-double-right"></i></a>
+                        <a class="btn menu-btn" href="#food-menu">Menu <i class="icofont-double-right"></i></a>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                     <div class="burger-img">
-                        <img src="{{ asset('hotte/img/luckroni/macaroni (2).png') }}" class="w-100 img-fluid" alt="" />
+                        <img src="{{ asset('hotte/img/luckroni/macaroni (2).png') }}" class="w-100 img-fluid"
+                            alt="" />
                     </div>
                 </div>
             </div>
@@ -132,7 +133,7 @@
                         </h2>
                         <p>
                             pembelian 5x berturut-turut akan mendapatkan kejutan berupa makaroni gratis dari kami
-                           
+
                         </p>
                         <div class="offer-info">
                             <div class="form-row justify-content-center align-items-center">
@@ -212,7 +213,8 @@
                     <div class="food-menu text-center">
                         <div class="food-img-info">
                             <div class="food-img">
-                                <img src="{{ asset('hotte/img/luckroni/keju.png') }}" class="w-100" alt="" />
+                                <img src="{{ asset('hotte/img/luckroni/keju.png') }}" class="w-100"
+                                    alt="" />
                             </div>
                         </div>
                         <div class="food-informaion">
@@ -234,7 +236,8 @@
                     <div class="food-menu text-center">
                         <div class="food-img-info">
                             <div class="food-img">
-                                <img src="{{ asset('hotte/img/luckroni/original.png') }}" class="w-100" alt="" />
+                                <img src="{{ asset('hotte/img/luckroni/original.png') }}" class="w-100"
+                                    alt="" />
                             </div>
                         </div>
                         <div class="food-informaion">
@@ -256,7 +259,8 @@
                     <div class="food-menu text-center">
                         <div class="food-img-info">
                             <div class="food-img">
-                                <img src="{{ asset('hotte/img/luckroni/seuhah.png') }}" class="w-100" alt="" />
+                                <img src="{{ asset('hotte/img/luckroni/seuhah.png') }}" class="w-100"
+                                    alt="" />
                             </div>
                         </div>
                         <div class="food-informaion">
@@ -284,7 +288,7 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg 12 col-xl-12">
                     <div class="customer-head text-center">
-                        <h2>Some of Our Satisfied <span>Customer.</span></h2>
+                        <h2>Beberapa <span>Pelanggan Kami.</span></h2>
                     </div>
                 </div>
             </div>
@@ -377,7 +381,7 @@
     <!--CUSTOMER SECTION END-->
 
 
- @include('layouts.footer')
+    @include('layouts.footer')
 
     <!-- jQuery File-->
     <script src="{{ asset('hotte/js/jquery-3.5.1.min.js') }}"></script>
